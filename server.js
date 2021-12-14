@@ -8,7 +8,8 @@ app.use(express.static(__dirname + '/public'));
 app.get("/test", (req, res) => {
     res.json({ message: "Hello from server!" });
   });
-app.listen(PORT, () => {
+
+  app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
 
