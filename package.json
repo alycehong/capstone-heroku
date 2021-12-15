@@ -7,7 +7,7 @@
     "node": "17.2.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node web-server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd client && npm install && npm run build",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy"
